@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "react-web-toolkit",
   "scripts": {
+    "build": "node node_modules/npm-pack-all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +20,15 @@
     "inquirer": "^7.3.3",
     "mkdirp": "^1.0.4"
   },
+  "bundledDependencies": [
+    "chalk-pipe", "inquirer", "mkdirp"
+  ],
   "homepage": "https://github.com/pratiksyngenta/react-web-toolkit#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@pratiksyngenta"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
