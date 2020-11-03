@@ -1,0 +1,16 @@
+phraseapp:
+  access_token: <<ACCESS_TOKEN>>
+  project_id: <<PROJECT_ID>>
+  push:
+    sources:
+    - file: <<LOCALE_LOCATION>>/<locale_code>.json
+      params:
+        file_format: i18next
+        update_translations: true
+        convert_emoji: true
+  pull:
+    targets:
+    - file: <<LOCALE_LOCATION>>/<locale_code>.json
+      params:
+        file_format: i18next
+        convert_emoji: true
