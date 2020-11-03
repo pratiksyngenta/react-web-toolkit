@@ -1,6 +1,6 @@
 {
   "name": "@pratiksyngenta/react-web-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react-web-toolkit",
   "scripts": {
     "build": "node node_modules/npm-pack-all",
