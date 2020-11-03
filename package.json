@@ -19,5 +19,8 @@
     "inquirer": "^7.3.3",
     "mkdirp": "^1.0.4"
   },
-  "homepage": "https://github.com/pratiksyngenta/react-web-toolkit#readme"
+  "homepage": "https://github.com/pratiksyngenta/react-web-toolkit#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@pratiksyngenta"
+  }
 }
