@@ -1,5 +1,5 @@
 {
-  "name": "react-web-toolkit",
+  "name": "@pratiksyngenta/react-web-toolkit",
   "version": "0.0.1",
   "description": "react-web-toolkit",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/pratiksyngenta/react-web-toolkit#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@pratiksyngenta"
   }
 }
