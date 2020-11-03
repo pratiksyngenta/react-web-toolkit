@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/pratiksyngenta/react-web-toolkit#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@pratiksyngenta"
+    "registry": "https://npm.pkg.github.com"
   }
 }
